@@ -15,7 +15,7 @@ public static void main(String[] args) throws Exception {
 	idName.sendKeys("8148845684");
 	//Thread.sleep(8000);
 	WebElement pswrd = fb.findElement(By.id("pass"));
-	pswrd.sendKeys("9715458814");
+	pswrd.sendKeys("******");
 	fb.findElement(By.name("login")).click();
 	String t = fb.getTitle();
 	System.out.println(t);
