@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	cd.findElement(By.name("firstname")).sendKeys("Azar");
 	cd.findElement(By.name("lastname")).sendKeys("Mohammed");
 	cd.findElement(By.name("reg_email__")).sendKeys("8124648094");
-	cd.findElement(By.id("password_step_input")).sendKeys("8148845684");
+	cd.findElement(By.id("password_step_input")).sendKeys("****");
 	WebElement dayWE = cd.findElement(By.id("day"));
 	Select dd1 = new Select(dayWE);
 	dd1.selectByIndex(1);
