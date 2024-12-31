@@ -11,7 +11,7 @@ fb.get("https://www.facebook.com/login/");
 WebElement Email = fb.findElement(By.id("email"));
 Email.sendKeys("8148845684");
 WebElement pswd = fb.findElement(By.id("pass"));
-pswd.sendKeys("9715458814");
+pswd.sendKeys("******");
 WebElement lg = fb.findElement(By.id("loginbutton"));
 lg.submit();
 fb.findElement(By.linkText("_xkv fsm fwn fcg")).submit();
